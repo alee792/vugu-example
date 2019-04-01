@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/alee792/vugutest/bitcoin"
+	"github.com/alee792/vugu-example/bitcoin"
 	"github.com/vugu/vugu"
 )
 

@@ -1,5 +1,3 @@
-// +build ignore
-
 package main
 
 import (
@@ -12,7 +10,7 @@ import (
 
 func main() {
 	wd, _ := os.Getwd()
-	wd = "/Users/a611633/go/src/github.com/alee792/vugutest/root"
+	wd = wd + "/root"
 	l := "127.0.0.1:8844"
 	log.Printf("Starting HTTP Server at %q", l)
 	h := simplehttp.New(wd, true)
