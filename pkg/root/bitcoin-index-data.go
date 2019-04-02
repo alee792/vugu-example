@@ -2,18 +2,18 @@
 package main
 
 import (
-	"github.com/alee792/vugu-example/internal/bitcoin"
+	"github.com/alee792/vugu-example/pkg/bitcoin"
 	"github.com/vugu/vugu"
 )
 
-// BitcoinData of the DOM.
-type BitcoinData struct {
+// BitcoinIndexData of the DOM.
+type BitcoinIndexData struct {
 	priceIndex bitcoin.PriceIndex
 	isLoading  bool
 }
 
 // HandleClick fetches Bitcoin's current price index.
-func (data *BitcoinData) HandleClick(event *vugu.DOMEvent) {
+func (data *BitcoinIndexData) HandleClick(event *vugu.DOMEvent) {
 	data.priceIndex = bitcoin.PriceIndex{}
 
 	evt := event.EventEnv()

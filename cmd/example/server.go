@@ -10,7 +10,7 @@ import (
 
 func main() {
 	wd, _ := os.Getwd()
-	wd = wd + "/pkg/bitcoin"
+	wd = wd + "/pkg/root"
 	l := "127.0.0.1:8844"
 	log.Printf("Starting HTTP Server at %q", l)
 	h := simplehttp.New(wd, true)

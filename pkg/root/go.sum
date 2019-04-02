@@ -1,9 +1,6 @@
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
-github.com/alee792/vugu-example v0.0.0-20190401193219-ba0946968cd6 h1:GgRc1BgGhDerkeNkT9gKN2yYuxdRz+5feVhmgE5bWFQ=
-github.com/alee792/vugu-example v0.0.0-20190401193219-ba0946968cd6/go.mod h1:LHunnzG4Dd3FmMxsWofS5lffgw97qCirHo+L7DK3HOY=
-github.com/alee792/vugu-example v0.0.0-20190401200846-f38a4d7f065f h1:h0kLpEFEcW4itYVi5hi0gfVOgw368dKtzO21gkuNieo=
-github.com/alee792/vugu-example v0.0.0-20190402132946-c3f71e0950f0 h1:PjsNun2TRhSnNrc7BMolPE5cPM/hhbaVX3IE/dohw/M=
-github.com/alee792/vugu-example v0.0.0-20190402132946-c3f71e0950f0/go.mod h1:kwuaPHV2QvsZsj0KWdQ+zto8PcyW1qjoCEDlNgmWVqg=
+github.com/alee792/vugu-example v0.0.0-20190402133051-8b14528d3503 h1:0RFvnqk2Qb1mye5YGCxYe7UjXyQNogL864xXrS10Qjc=
+github.com/alee792/vugu-example v0.0.0-20190402133051-8b14528d3503/go.mod h1:kwuaPHV2QvsZsj0KWdQ+zto8PcyW1qjoCEDlNgmWVqg=
 github.com/cespare/xxhash v1.1.0 h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

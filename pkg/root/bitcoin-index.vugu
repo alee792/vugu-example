@@ -1,4 +1,4 @@
-<div class="demo">
+<div class="bitcoin-index">
     <div vg-if='data.isLoading'>Loading...</div>
     <div vg-if='len(data.priceIndex.PriceIndex) > 0'>
         <div>Updated: <span vg-html='data.priceIndex.Time.Updated'></span></div>
@@ -9,4 +9,9 @@
         </ul>
     </div>
     <button @click="data.HandleClick(event)">Fetch Bitcoin Price Index</button>
+
+    <ul>
+      <my-line vg-for='i := 0; i < 10; i++' 
+        file-name="example.txt" :line-number="i">
+    </li>
 </div>
