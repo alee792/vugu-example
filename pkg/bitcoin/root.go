@@ -118,6 +118,8 @@ func (comp *Root) BuildVDOM(dataI interface{}) (vdom *vugu.VGNode, css *vugu.VGN
 
 type Root struct {}
 
+type RootData struct {}
+
 func (ct *Root) NewData(props vugu.Props) (interface{}, error) { return &RootData{}, nil }
 
 func init() { vugu.RegisterComponentType("root", &Root{}) }
